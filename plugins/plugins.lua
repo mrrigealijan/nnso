@@ -170,12 +170,12 @@ return {
     "!plugins disable [plugin] chat: disable plugin only this chat.",
     "!plugins reload: reloads all plugins." },
   patterns = {
-    "^/plist$",
-    "^/pl? (+) ([%w_%.%-]+)$",
-    "^/pl? (-) ([%w_%.%-]+)$",
-    "^/pl? (+) ([%w_%.%-]+) (supergroup)",
-    "^/pl? (-) ([%w_%.%-]+) (supergroup)",
-    "^/pl? (*)$" },
+    "^#plist$",
+    "^#pl? (+) ([%w_%.%-]+)$",
+    "^#pl? (-) ([%w_%.%-]+)$",
+    "^#pl? (+) ([%w_%.%-]+) (supergroup)",
+    "^#pl? (-) ([%w_%.%-]+) (supergroup)",
+    "^#pl? (*)$" },
   run = run,
   privileged = true
 }
